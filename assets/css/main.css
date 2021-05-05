@@ -72,6 +72,7 @@ input, select, textarea {
 	appearance: none;
 }
 
+
 /* Basic */
 
 	html {
@@ -3341,7 +3342,12 @@ input, select, textarea {
 		/* Two */
 
 			#two {
+				background-color: #4686a0;
 				text-align: center;
+				background-attachment: fixed, fixed, fixed;
+    		background-image: url(images/overlay2.png), url(images/overlay3.svg), linear-gradient(45deg, #9044d6, #4f7ba4 50%, #43b3c2 95%);
+    		background-position: top left, center center, center center;
+    		background-size: auto, cover, cover;
 			}
 
 	}
