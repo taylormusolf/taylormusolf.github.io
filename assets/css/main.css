@@ -2584,13 +2584,21 @@ input, select, textarea {
 	ul.major-icons {
 		list-style: none;
 		padding-left: 0;
+		display: flex;
+		flex-wrap: wrap;
 	}
 
 		ul.major-icons li {
 			display: inline-block;
-			padding: 2.5em;
+			/* padding: 2.5em; */
 			text-align: center;
+			width: 200px;
+			height: 200px;
 		}
+			ul.major-icons li img {
+				width: 100px;
+				height: 100px;
+			}
 
 			ul.major-icons li .icon {
 				-moz-transform: rotate(45deg);
