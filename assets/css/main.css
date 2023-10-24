@@ -2586,6 +2586,7 @@ input, select, textarea {
 		padding-left: 0;
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 
 		ul.major-icons li {
